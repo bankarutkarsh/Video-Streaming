@@ -1,0 +1,53 @@
+.App nav{
+  max-width: 80vw;
+  margin: 0 11%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.App nav img{
+  width: 15%;
+}
+.App .align{
+  display: flex;
+  justify-content: center;
+}
+
+.App nav .navbtn{
+  display: flex;
+  width: 15%;
+  gap: 7px;
+}
+.lang{
+  display: flex;
+}
+nav svg{
+  position: relative;
+  top: 11px;
+  left: 21px;
+  z-index: 1;
+}
+nav select{
+  position: relative;
+  padding-left: 21px;
+  min-width: 103px;
+  min-height: 37px;
+  background-color: black;
+  opacity: 1;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+nav button{
+  background-color: red;
+  color: white;
+  border: transparent;
+  border-radius: 6px;
+  padding: 6px;
+  min-width: 66px;
+}
